@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "root": {
+    "ref": "1",
+    "type": "pallet#0"
+  },
+  "objects": {
+    "1": {
+      "barcode": "Sherry.GravityZone",
+      "title": "Gravity Zone",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Sherry",
+      "version": "0.0.0",
+      "sdkVersion": "1.1.0",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "2",
+          "type": "crate-spawnable#0"
+        }
+      ],
+      "dataCards": [],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "pallet#0"
+      }
+    },
+    "2": {
+      "barcode": "Sherry.GravityZone.Spawnable.GravityZone2",
+      "title": "Gravity Zone 2",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "4a766eb4411c96643b8351e09d41353a"
+        }
+      ],
+      "mainAsset": "cddd2cf58394f654d92dd863b95bf8fe",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    }
+  }
+}

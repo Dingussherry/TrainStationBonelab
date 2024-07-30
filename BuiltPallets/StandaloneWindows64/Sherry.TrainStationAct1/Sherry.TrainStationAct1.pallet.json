@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "root": {
+    "ref": "1",
+    "type": "pallet#0"
+  },
+  "objects": {
+    "1": {
+      "barcode": "Sherry.TrainStationAct1",
+      "title": "TrainStation_Act1",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Sherry",
+      "version": "0.0.0",
+      "sdkVersion": "1.1.0",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "2",
+          "type": "crate-level#0"
+        }
+      ],
+      "dataCards": [],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "pallet#0"
+      }
+    },
+    "2": {
+      "barcode": "Sherry.TrainStationAct1.Level.TrainStation",
+      "title": "TrainStation",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [],
+      "mainAsset": "9fc0d4010bbf28b4594072e72b8655ab",
+      "tags": [],
+      "multiscene": false,
+      "isa": {
+        "type": "crate-level#0"
+      }
+    }
+  }
+}
